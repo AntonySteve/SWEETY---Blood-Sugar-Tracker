@@ -1,0 +1,20 @@
+body { font-family: Arial, sans-serif; background: #f4f6f8; margin: 0; color: #222; }
+.container { max-width: 600px; margin: 0 auto; padding: 16px; }
+h1 { text-align: center; color: #c2185b; }
+h2 { margin-top: 0; font-size: 18px; }
+.card { background: #fff; padding: 16px; border-radius: 8px; margin-bottom: 16px; box-shadow: 0 1px 3px rgba(0,0,0,.1); }
+input, select { display: block; width: 100%; box-sizing: border-box; padding: 8px; margin: 4px 0 12px; border: 1px solid #ccc; border-radius: 4px; }
+label { display: block; font-size: 14px; }
+button { background: #c2185b; color: #fff; border: 0; padding: 8px 16px; border-radius: 4px; cursor: pointer; }
+button.secondary { background: #777; }
+button.danger { background: #d32f2f; }
+button.small { padding: 4px 8px; font-size: 12px; }
+.error { color: #d32f2f; background: #fdecea; padding: 8px; border-radius: 4px; }
+.muted { color: #777; margin: 0 0 12px; }
+.empty { text-align: center; color: #777; }
+.stats { display: flex; justify-content: space-between; text-align: center; margin-bottom: 8px; }
+.stats b { display: block; font-size: 22px; }
+.stats span { font-size: 12px; color: #777; }
+.topbar { display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px; }
+table { width: 100%; border-collapse: collapse; margin-top: 12px; }
+th, td { text-align: left; padding: 6px; border-bottom: 1px solid #eee; font-size: 14px; }
